@@ -40,7 +40,7 @@ Vue.use(vueBaberrage)
 //导入axios
 import axios from 'axios'
 //配置请求的根路径
-axios.defaults.baseURL = 'http://localhost:8889/api/'
+axios.defaults.baseURL = process.env.VUE_APP_API_BASE_URL
 Vue.prototype.$http = axios
 // const CancelToken = axios.CancelToken;
 // const source = CancelToken.source();

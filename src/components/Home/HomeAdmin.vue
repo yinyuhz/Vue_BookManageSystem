@@ -8,6 +8,7 @@
         <span style="color: #ccc; font-size: 16px">系统管理人员页面</span>
       </div>
       <div>
+<!--
         <a href="https://github.com/luoye6/Vue_BookManageSystem" title="GitHub源码地址" target="_blank"
           style="margin-right:10px">
           <svg t="1686048645435" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +26,7 @@
               fill="#C71D23" p-id="1835"></path>
           </svg>
         </a>
+-->
         <div>
           <el-avatar
             src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"
@@ -109,21 +111,22 @@
         <!-- 路由占位符 -->
         <router-view></router-view>
         <div class="footer">
-          <el-popover placement="top-start" :width="150" trigger="hover">
-            <p slot="reference"> 联系作者|   ©2022-2023 By 小白条<br /> </p>
-            <img
-                src="https://pic.yupi.icu/5563/202312061315664.png"
-                style="height: 100px; width: 100px"
-            />
-          </el-popover>
-          <a href="https://beian.miit.gov.cn">备案号:浙ICP备2023044565号-2 |</a>
-          <a href="https://beian.mps.gov.cn/#/query/webSearch">
-            <img
-                src="https://xxx.xiaobaitiao.icu/img/icu/202312211243636.png"
-                style="height: 16px; width: 16px; margin: 5px 0px 0px 5px"
-            />
-            浙公网安备33028202001002号
-          </a>
+          <img
+              src="https://milkbeer.cn/weixin.png"
+              style="height: 100px; width: 100px"
+          />
+          <span slot="reference"> 联系作者|   ©2025-2026 By YY </span>
+          <a href="https://beian.miit.gov.cn">&nbsp;&nbsp;备案号:浙ICP备2025144000号-1</a>
+          <!--
+          <br />
+                <a href="https://beian.mps.gov.cn/#/query/webSearch">
+                  <img
+                      src="https://xxx.xiaobaitiao.icu/img/icu/202312211243636.png"
+                      style="height: 16px; width: 16px; margin: 5px 0px 0px 5px"
+                  />
+                  浙公网安备33028202001002号
+                </a>
+          -->
         </div>
       </el-main>
     </el-container>

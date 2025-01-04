@@ -4,7 +4,7 @@
     <div class="login_box">
       <!-- 头像区域 -->
       <div class="avatar_box">
-        <img src="../assets/images/dinosaur.jpg" alt="" />
+        <img src="https://milkbeer.cn/cat.webp" alt="" />
       </div>
       <!-- 登录表单区域 -->
       <el-form ref="loginFormRef" :model="loginForm" :rules="loginFormRules" label-width="0px" class="login_form">
@@ -25,10 +25,12 @@
       </el-form>
     </div>
 <!--    粒子插件特效-->
+<!--
     <vue-particles class="login-bg" color="#39AFFD" :particleOpacity="0.7" :particlesNumber="100" shapeType="circle"
       :particleSize="4" linesColor="#8DD1FE" :linesWidth="1" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150"
       :moveSpeed="3" :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push">
     </vue-particles>
+-->
     <div class="footer">
       <span style="font-weight: bold;color:white;margin-bottom: 10px">
         登录页面切换
@@ -39,15 +41,13 @@
       </span>
     </div>
     <div class="footer2">
-
-      <el-popover placement="top-start" :width="150" trigger="hover">
-        <p slot="reference"> 联系作者|   ©2022-2023 By 小白条<br /> </p>
         <img
-            src="https://pic.yupi.icu/5563/202312061315664.png"
+            src="https://milkbeer.cn/weixin.png"
             style="height: 100px; width: 100px"
         />
-      </el-popover>
-      <a href="https://beian.miit.gov.cn">备案号:浙ICP备2023044565号-2 | </a>
+      <span slot="reference"> 联系作者|   ©2025-2026 By YY<br /> </span>
+      <a href="https://beian.miit.gov.cn">&nbsp;&nbsp;备案号:浙ICP备2025144000号-1</a>
+<!--
       <a href="https://beian.mps.gov.cn/#/query/webSearch">
         <img
             src="https://xxx.xiaobaitiao.icu/img/icu/202312211243636.png"
@@ -55,6 +55,7 @@
         />
         浙公网安备33028202001002号
       </a>
+-->
     </div>
   </div>
 </template>
@@ -65,7 +66,7 @@ export default {
     return {
       //登录表单
       loginForm: {
-        username: "相思断红肠",
+        username: "白素尘",
         password: "123456",
       },
 
@@ -143,7 +144,7 @@ export default {
 .footer2 {
   position: absolute;
   bottom: 0px;
-  left: 35%;
+  left: 40%;
   color: #ccc;
 
   a {
@@ -152,8 +153,8 @@ export default {
 }
 
 .login_container {
-  // background-color: #2b4b6b;
-  background: url(https://xxx.xiaobaitiao.icu/img/icu/202312211236280.jpg) no-repeat 0px 0px;
+   //background-color: #2b4b6b;
+  background: #2b4b6b66 url('http://milkbeer.cn/ahmetyuksek.jpg') no-repeat 0px 0px;
   background-size: cover;
   height: 100%;
 }
@@ -161,7 +162,7 @@ export default {
 .login_box {
   height: 300px;
   width: 450px;
-  background-color: #fff;
+  //background-color: #fff;
   border-radius: 3px;
   position: absolute;
   top: 50%;
@@ -173,18 +174,18 @@ export default {
     height: 130px;
     border: 1px solid #eee;
     border-radius: 50%;
-    padding: 10px;
+    padding: 0px;
     box-shadow: 0 0 10px #ddd;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    //background-color: #fff;
 
     img {
       width: 100%;
       height: 100%;
       border-radius: 50%;
-      background-color: #eee;
+      //background-color: #eee;
     }
   }
 }
@@ -222,7 +223,7 @@ export default {
   width: 100px;
   height: 120px;
 
-  // background-color: pink;
+   //background-color: pink;
   span {
     // width: 100%;
     // background-color: red;
